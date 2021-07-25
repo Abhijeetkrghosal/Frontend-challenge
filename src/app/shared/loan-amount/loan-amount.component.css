@@ -1,0 +1,8 @@
+.rounded-right {
+    border-top-right-radius: 12px !important;
+    border-bottom-right-radius: 12px !important;
+}
+.rounded-left-none {
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px  !important;
+}

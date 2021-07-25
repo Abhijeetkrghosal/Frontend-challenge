@@ -1,0 +1,16 @@
+
+<div class="row align-items-center">
+  <div class="col-sm-6" *ngFor='let item of benefitscardData'>
+    <mat-card class=" my-card m-2 p-4 card-hover" id="ca">
+        <mat-card-content>
+          <img mat-card-image src="{{item.benefitImage}}" alt="" class="img-fluid m-0 benfit-card-logo">
+
+          <mat-card-title class="card-text-title font-size-15px text-left mt-3">{{item.benefitTitle}}</mat-card-title>
+          <p class="card-text-description font-size-15px text-left">
+           {{item.benefitDescription}}
+          </p>
+        </mat-card-content>
+  </mat-card>
+    
+  </div>
+</div>

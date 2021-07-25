@@ -1,0 +1,7 @@
+<span [ngStyle]="{'fill': getColor()}">
+    <svg [ngClass]="extraClass" [ngStyle]="{'height': size + 'px', 'width': size + 'px'}" version="1.1"
+      xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" [attr.aria-labelledby]="name"
+      [attr.aria-describedby]="name">
+      <use [attr.xlink:href]="'../../../assets/svg_images/images.svg#' + name"></use>
+    </svg>
+  </span>

@@ -1,0 +1,28 @@
+.secondToolbar {
+    position: fixed;
+    background: #fff;
+    top: 0;
+    height: 0;
+    opacity: 0;
+    transition: opacity .25s ease-out, height .15s ease;
+    cursor: default;
+    user-select: none;
+    width:100%;
+  }
+  
+  .sticky {
+    height: auto;
+    opacity: 1;
+    transition: opacity .25s ease-out, height .15s ease;
+    width:100%;
+    z-index: 2;
+  }
+  .logo-image {
+      width:85px;
+  }
+  .sticky-logo-image {
+      width:60px;
+  }
+  .sticky_navbar {
+      height: 60px;
+  }
